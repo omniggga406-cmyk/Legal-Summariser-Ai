@@ -1,0 +1,6 @@
+@echo off
+echo [~] Activating Local Python Virtual Environment...
+call .\venv\Scripts\activate
+echo [~] Booting up NyayaSummary AI Dashboard App...
+python -m streamlit run app.py
+pause
